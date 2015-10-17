@@ -1,7 +1,7 @@
 /****************** header *****************/
 header { height: 100px; position: relative; }
 #logo {
-	background: url("Contents/logo_small.png");
+	background: url("Contents/Logo_small.png");
 	background-size: cover;
 	width: 267px;
 	height: 77px;
