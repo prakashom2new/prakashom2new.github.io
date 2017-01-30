@@ -47,7 +47,9 @@ html, body {
     font-size: 15px;
     line-height: 1.5;
     
+    max-width: 1600px;
     height: 100%;
+    margin: auto;
 }
 
 h1,
@@ -85,7 +87,7 @@ h6 {
 
 :root {
     /* background color */
-    --clr-1: #424242;
+    --clr-1: #212121;
     --clr-2: #FAFAFA;
     --clr-3-l: #BA68C8;
     --clr-3-d: #6A1B9A;
@@ -98,15 +100,11 @@ h6 {
 
 a { text-decoration: none; color: inherit; }
 
-@media only screen and (max-width:1279px){ 
-
+@media only screen and (max-width:1279px){   
 }
 @media only screen and (max-width:899px){ 
-
 }
 @media only screen and (max-width:767px){ 
-
 }
 @media only screen and (max-width:479px){ 
-
 }
