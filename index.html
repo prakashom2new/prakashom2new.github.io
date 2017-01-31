@@ -9,13 +9,13 @@
 
         <link href="build/css/common.css" rel="stylesheet">
         <link href="build/css/head.css" rel="stylesheet">
-        <link href="build/css/homepage.css" rel="stylesheet">
+        <link href="build/css/homepage_main-content.css" rel="stylesheet">
     </head>
 
-    <body class="hompage">
+    <body class="homepage">
         
-        <section class="head head_pos-siz head_z-index">
-            <input id="Ham-checkbox" class="head__hambur-checkbox" type="checkbox" name="ham-checkbox" value="" checked="">
+        <section class="head head_pos head_siz">
+            <input id="Ham-checkbox" class="head__hambur-checkbox" type="checkbox" name="ham-checkbox" value="">
             <label class="hambur-design" for="Ham-checkbox">
                 <i class="fa fa-bars hambur-design__bars" aria-hidden="true"></i>
                 <i class="fa fa-times hambur-design__times" aria-hidden="true"></i>
@@ -53,12 +53,42 @@
                 <h1 class="short-intro__title">
                     Code Warrior | Web Designer
                 </h1>
-                <p class="short-intro__detail">I am a Front End Developer based in Chennai, India. I'm a developer, so I know how to create your website to run across devices using the latest technologies available. I have a passion for programming, creating everythimg from scratch and so on. If you are a fellow Code Warrior fell free to ping.</p>
+                <p class="short-intro__detail">I am a Front End Developer based in Chennai, India. I have a passion for programming, creating everythimg from scratch and so on. If you are a fellow Code Warrior fell free to ping.</p>
             </div>
 
-            <div class="latest-works">
-                <h2 class="title"><u>Latest works:</u></h2>
-                <h3 style="margin-left: 25px; color: yellowgreen;">Coming Soon...</h3>
+            <div class="group latest-works">
+                <div class="group__wrapper latest-works__wrapper sec-wrapper">
+                    <h2 class="group__title latest-works__title sec-title">Latest works:</h2>
+                    <h3 style="margin-left: 25px;">Coming Soon...</h3>
+                </div>
+            </div>
+
+            <div class="group other-works">
+                <div class="group__wrapper other-works__wrapper">
+                    <h2 class="group__title other-works__title">Other works:</h2>
+                        
+                    <div class="other-works__works-group">
+                        <div class="sub-group sub-group-1">
+                            <div class="sub-group__wrapper">
+                                <h3 class="sub-group__title">The MBT</h3>
+                                <a href="https://prakashom2new.itch.io/the-mbt" class="sub-group__link">
+                                    <div class="sub-group__img sub-group__img_siz sub-group__img_bg-property" style="background-image: url(build/img/the-mbt.png);"></div>
+                                </a>
+                                <p class="sub-group__explain-txt">"The MBT" is an Action Shooter PC game i have created for Final year Project while stduying at VIT University - Vellore.</p>
+                            </div>
+                        </div>
+
+                        <div class="sub-group sub-group-2">
+                            <div class="sub-group__wrapper">
+                                <h3 class="sub-group__title">3D Model</h3>
+                                <a href="https://vimeo.com/132791600" class="sub-group__link">
+                                    <div class="sub-group__img sub-group__img_siz sub-group__img_bg-property" style="background-image: url(build/img/3d-model.png);"></div>
+                                </a>
+                                <p class="sub-group__explain-txt">The 3D model is created using applications like Autodesk Maya and Adobe Photoshop.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
