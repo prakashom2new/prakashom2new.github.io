@@ -48,6 +48,7 @@ html, body {
     line-height: 1.5;
     
     max-width: 1600px;
+    min-width: 320px;
     height: 100%;
     margin: auto;
 }
@@ -100,11 +101,23 @@ h6 {
 
 a { text-decoration: none; color: inherit; }
 
+.group__wrapper { margin: var(--space-1); }
+.group__title { border-bottom: 1px solid var(--clr-1); }
+
+.sub-group__wrapper { margin: var(--space-2); }
+.sub-group__title { border-bottom: 1px solid var(--clr-1); }
+
 @media only screen and (max-width:1279px){   
 }
 @media only screen and (max-width:899px){ 
 }
 @media only screen and (max-width:767px){ 
+    :root {
+        /* spacing */
+        --space-1: 25px;
+        --space-2: 12px;
+        --space-3: 5px;
+    }
 }
 @media only screen and (max-width:479px){ 
 }

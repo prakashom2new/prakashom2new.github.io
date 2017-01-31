@@ -1,10 +1,11 @@
-.head_pos-siz { 
+.head_pos { 
     position: fixed; 
+    z-index: 2;
+    overflow: auto;
+}
+.head_siz {
     width: 20%; 
     height: 100%; 
-}
-.head_z-index {
-    z-index: 2;
 }
 
 .hambur-design {
@@ -79,9 +80,9 @@
 .socl-acct__link_design {
     width: 15px;
     height: 15px; 
-    padding: 12px; 
+    padding: 10px; 
 
-    font-size: 1.1rem;
+    font-size: 1.0rem;
     border: 1px solid var(--clr-2); 
 }
 .socl-acct__link_design:hover { background: var(--clr-2); color: var(--clr-1); transition: all 0.75s; }
@@ -90,14 +91,15 @@
 .copyrights_txt { font-size: 0.75rem; }
 
 @media only screen and (max-width:1279px){ 
-    .head_pos-siz { width: 25%; }
+    .head_siz { width: 25%; }
 
     .socl-acct_siz { width: 100%; } 
     .socl-acct_pos { margin-left: 0; }
     .socl-acct__link_design { font-size: 1.0rem; padding: 8px; }
 }
 @media only screen and (max-width:899px){
-    .nav_pos-siz { position: absolute; left: -400px; width: 300px; height: 100%; }
+    .head_siz { width: 350px; }
+    .nav_pos-siz { position: absolute; left: -400px; width: 350px; height: 100%; }
 
     .hambur-design { display: inline-block; }
     .head__hambur-checkbox:checked ~ nav { left: 0; }
@@ -106,8 +108,8 @@
     .head__hambur-checkbox:checked ~ .hambur-design .hambur-design__bars { display: none; }
 }
 @media only screen and (max-width:767px){ 
-    
+    .head_siz { width: 320px; }
+    .nav_pos-siz { left: -325px; width: 320px; }
 }
 @media only screen and (max-width:479px){ 
-
 }
