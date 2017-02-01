@@ -61,7 +61,7 @@
 }
 .menu__link_txt { font-size: 1.2rem; text-transform: uppercase; }
 .menu__link_clr:hover {
-    color: var(--clr-3-l);
+    color: var(--clr-3);
 } 
 
 .socl-acct_pos {
