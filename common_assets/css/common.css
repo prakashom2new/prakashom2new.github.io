@@ -98,6 +98,8 @@ h6 {
     --space-3: 10px;
 }
 
+.highlight-txt { font-size: 1.1em; font-weight: 600; opacity: 0.75; }
+
 a { text-decoration: none; color: inherit; }
 .link_danger { font-family: Georgia, Times, Times New Roman, serif; color: #ef5350; }
 .link_danger:hover, .link_danger:active, .link_danger:focus { color: #d32f2f; }

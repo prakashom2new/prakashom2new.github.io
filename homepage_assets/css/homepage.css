@@ -1,5 +1,4 @@
-.short-intro__group-wrapper { margin-top: 25px; margin-top: var(--space-2); }
-.short-intro_siz { width: 80%; margin-left: 10%; }
+.short-intro { width: 80%; margin-left: 10%; }
 .short-intro__prof-img { 
     width: 150px;
 
@@ -9,8 +8,7 @@
             transform: translate(-50%, 0);
 
 }
-.short-intro__title { text-align: center; margin: 25px 0; margin: var(--space-2) 0; }
-.short-intro__detail { margin: 25px 0; margin: var(--space-2) 0; }
+.short-intro__detail { margin: 10px 0; margin: var(--space-3) 0; }
 
 .sub-group { width: 50%; }
 .latest-works__items { display: -webkit-box; display: -ms-flexbox; display: flex;  
