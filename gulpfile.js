@@ -8,10 +8,10 @@ var gulp = require ("gulp"),
     webserver = require('gulp-webserver');;
 
 gulp.task ("fileInclude", function () {
-    return gulp.src ("/templates/*.tpl.html")
+    return gulp.src ("./templates/*.tpl.html")
             .pipe (plumber ())    
             .pipe (fileIncluder ())
-            .pipe (rename ({extname: ""}))
+            .pipe (rename ({extname: ""}))  
             .pipe (rename ({extname: ".html"}))
             .pipe (gulp.dest ("./"));
 });
@@ -34,6 +34,8 @@ gulp.task('webserver', function() {
 
     gulp.watch ("./templates/*.tpl.html", ["fileInclude"]);
     gulp.watch ("./works_pages/templates/*.tpl.html", ["fileIncludeWorks"]);
+    gulp.watch ("./resources/*.html", ["fileInclude", "fileIncludeWorks"]);
+    gulp.watch ("./css/*.css", ["fileInclude", "fileIncludeWorks"]);
     
 });
 

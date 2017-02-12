@@ -5,17 +5,16 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
-        @@include("/resources/_linked-files.html")
+        @@include("../resources/_linked-files.html")
         
         <link href="/css/homepage.css" rel="stylesheet">
         
-        @@include("/resources/_analytics-code.html")
+        @@include("../resources/_analytics-code.html")
         
     </head>
-
     <body class="homepage">
 
-        @@include("/resources/_header.html")
+        @@include("../resources/_header.html")
 
         <section class="main-content main-content_pos-siz">
             <div class="main-content__wrapper">
@@ -36,7 +35,7 @@
                             <h3 class="sub-group__title">CSS image gallery</h3>
                             <p class="sub-group__content sub-group__explain-txt">An image gallery created completely in CSS. No javascript or jQuery used.</p>
                             <div class="sub-group__content latest-works__call-to-action">
-                                <a class="btn_cool" href="works_pages/css-image-gallery.html" type="button">SEE MORE</a>
+                                <a class="btn_danger" href="works_pages/css-image-gallery.html" type="button">SEE MORE</a>
                             </div>
                         </div>
                         <div class="sub-group sub-group-2">
@@ -51,18 +50,17 @@
                     <div class="other-works__items">
                         <div class="sub-group sub-group-1">
                             <h3 class="sub-group__title">The MBT</h3>
-                            <a href="https://prakashom2new.itch.io/the-mbt" class="sub-group__link">
-                                <div class="sub-group__img sub-group__img_siz sub-group__img_bg-property" style="background-image: url(/img/homepage_img/the-mbt.jpg);"></div>
-                            </a>
-                            <p class="sub-group__explain-txt">"The MBT" is an Action Shooter PC game i have created for Final year Project while stduying at VIT University - Vellore.</p>
+                            
+                            <div class="sub-group__content sub-group__img sub-group__img_siz sub-group__img_bg-property" style="background-image: url(/img/homepage_img/the-mbt.jpg);"></div>
+                            <p class="sub-group__content sub-group__explain-txt">"The MBT" is an Action Shooter PC game i have created for Final year Project while stduying at VIT University - Vellore.</p>
+                            <a href="/works_pages/the-mbt.html" class="sub-group__content btn_danger">SEE MORE</a>
                         </div>
 
                         <div class="sub-group sub-group-2">
-                            <h3 class="sub-group__title">3D Model</h3>
-                            <a href="https://vimeo.com/132791600" class="sub-group__link">
-                                <div class="sub-group__img sub-group__img_siz sub-group__img_bg-property" style="background-image: url(/img/homepage_img/3d-model.jpg);"></div>
-                            </a>
-                            <p class="sub-group__explain-txt">The 3D model is created using applications like Autodesk Maya and Adobe Photoshop.</p>
+                            <h3 class="sub-group__title">3D Model</h3>    
+                            <div class="sub-group__content sub-group__img sub-group__img_siz sub-group__img_bg-property " style="background-image: url(/img/homepage_img/3d-model.jpg);"></div>
+                            <p class="sub-group__content sub-group__explain-txt">The 3D model is created using applications like Autodesk Maya and Adobe Photoshop.</p>
+                            <a href="https://vimeo.com/132791600" class="sub-group__content btn_danger">SEE MORE</a>
                         </div>
                     </div>
                 </div>

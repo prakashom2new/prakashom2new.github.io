@@ -101,34 +101,20 @@ h6 {
 .highlight-txt { font-size: 1.1em; font-weight: 600; opacity: 0.75; }
 
 a { text-decoration: none; color: inherit; }
-.link_danger { font-family: Georgia, Times, Times New Roman, serif; color: #ef5350; }
-.link_danger:hover, .link_danger:active, .link_danger:focus { color: #d32f2f; }
+.link_danger { font-family: Georgia, Times, Times New Roman, serif; color: crimson; }
+.link_danger:hover, .link_danger:active, .link_danger:focus { color: firebrick; }
 .btn_danger { 
     background: none;
     border: none;
-    color: #ef5350;
+    color: crimson;
     font-size: 1.1rem;
     font-family: Georgia, Times, Times New Roman, serif;  
-    font-weight: 600; 
-    text-decoration: underline;
+    font-weight: 500; 
     cursor: pointer; 
     padding: 0;
-    border-bottom: 2px solid #ef5350;
+    border-bottom: 2px solid crimson;
 }
-.btn_cool { 
-    background: none;
-    border: none;
-    color: #5C6BC0;
-    font-size: 1.1rem;
-    font-family: Georgia, Times, Times New Roman, serif;  
-    font-weight: 600; 
-    cursor: pointer; 
-    padding: 0;
-    border-bottom: 2px solid #5C6BC0;
-    border-radius: 5px;
- }
-.btn_danger:hover, .btn_danger:active { color: #d32f2f; }
-.btn_cool:hover, .cool:active { color: #1A237E; border-bottom-color: #1A237E; }
+.btn_danger:hover, .btn_danger:active { color: firebrick; border-bottom: 2px solid firebrick; }
 
 .main-content_pos-siz { width: 80%; margin-left: 20%; padding: 25px; padding: var(--space-2); box-sizing: border-box; }
 
@@ -138,7 +124,7 @@ a { text-decoration: none; color: inherit; }
 .group { box-sizing: border-box; margin-top: 50px; margin-top: var(--space-1); }
 .group__title { border-bottom: 1px solid #212121; border-bottom: 1px solid var(--clr-1); }
 
-.sub-group { margin: 25px; margin: var(--space-2); }
+.sub-group { margin: 25px 0; margin: var(--space-2) 0; }
 .sub-group__title { border-bottom: 1px solid #212121; border-bottom: 1px solid var(--clr-1); }
 .sub-group__content { margin-top: 10px; margin-top: var(--space-3); }
 
@@ -149,12 +135,13 @@ a { text-decoration: none; color: inherit; }
     .main-content_pos-siz { width: 100%; margin-left: 0; }
 }
 @media only screen and (max-width:767px){ 
-    :root {
-        /* spacing */
+    /*:root {
         --space-1: 25px;
         --space-2: 12px;
         --space-3: 5px;
-    }
+    }*/
+
+   h1 { font-size: 32px; } h2 { font-size: 28px; } h3 { font-size: 22px; } h4 { font-size: 18px; } 
 }
 @media only screen and (max-width:479px){ 
 }
