@@ -68,8 +68,7 @@
     color: #bdbdbd;
     color: var(--clr-3);
 } 
-.menu__item .menu__link { pointer-events: none; color: #bdbdbd; color: var(--clr-3); }
-.menu__item:first-child .menu__link { pointer-events: visible; color: #fafafa; color: var(--clr-2); }
+.menu__link_disable { pointer-events: none; color: #bdbdbd; color: var(--clr-3); }
 
 .socl-acct_pos {
     display: -webkit-box;

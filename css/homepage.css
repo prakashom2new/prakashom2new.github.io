@@ -10,7 +10,8 @@
 }
 .short-intro__detail { margin: 10px 0; margin: var(--space-3) 0; }
 
-.sub-group { width: 50%; }
+.sub-group { width: 50%; margin: 25px; margin: var(--space-2); }
+
 .latest-works__items { display: -webkit-box; display: -ms-flexbox; display: flex;  
     -webkit-box-pack: start;  
         -ms-flex-pack: start;  
@@ -29,11 +30,10 @@
     background-size: cover;
  }
 .sub-group__img_siz { height: 330px; width: 100%; }
-.sub-group__link { margin: 10px; margin: var(--space-3); display: block; }
 
 @media only screen and (max-width:1279px){
     .sub-group { width: 80%; margin-left: 10%; }
-    .other-works__items { display: block; }
+    .other-works__items, .latest-works__items { display: block; }
 }
 @media only screen and (max-width:899px){
 }
