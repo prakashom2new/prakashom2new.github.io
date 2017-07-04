@@ -116,7 +116,7 @@ a { text-decoration: none; color: inherit; }
 }
 .btn_danger:hover, .btn_danger:active { color: firebrick; border-bottom: 2px solid firebrick; }
 
-.main-content_pos-siz { width: 80%; margin-left: 20%; padding: 25px; padding: var(--space-2); box-sizing: border-box; }
+.main-content_pos-siz { width: 80%; width: calc(100% - 325px); margin-left: 325px; padding: 25px; padding: var(--space-2); box-sizing: border-box; }
 
 .page-title { text-align: center; }
 .page-sub-title { text-align: center; }
