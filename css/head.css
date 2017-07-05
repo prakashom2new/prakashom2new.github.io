@@ -113,11 +113,11 @@
     .socl-acct__link_design { font-size: 1.0rem; padding: 8px; }
 }
 @media only screen and (max-width:899px){
-    .head_siz { width: 350px; }
-    .nav_pos-siz { position: absolute; left: -400px; width: 350px; height: 100%; }
+    .head_siz { width: 75px; height: 75px; }
+    .nav_pos-siz { position: relative; left: -400px;  width: 350px; height: 100%; }
 
-    .hambur-design { display: inline-block; }
-    .head__hambur-checkbox:checked ~ nav { left: 0; }
+    .hambur-design { display: inline-block; width: 30px; height: 30px; }
+    .head__hambur-checkbox:checked ~ nav { left: 0; /*width: 350px;*/ }
     .hambur-design__times { display: none; }
     .head__hambur-checkbox:checked ~ .hambur-design .hambur-design__times { display: inline-block; }
     .head__hambur-checkbox:checked ~ .hambur-design .hambur-design__bars { display: none; }
